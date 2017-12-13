@@ -1,8 +1,0 @@
-{
-  "name": "oasp-ionic-application-template",
-  "app_id": "",
-  "type": "ionic-angular",
-  "integrations": {
-    "cordova": {}
-  }
-}

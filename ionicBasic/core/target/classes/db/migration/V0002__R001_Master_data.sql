@@ -1,0 +1,25 @@
+
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (0, 0, 'Charly', 'Chief', 34);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (1, 1, 'Carl', 'Cook', 33);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (2, 0, 'Willy', 'Waiter', 12);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (3, 0, 'Bianca', 'Barkeeper', 14);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (4, 0, 'user1', 'user1', 34);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (5, 0, 'user2', 'user2', 33);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (6, 0, 'user3', 'user3', 12);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (7, 0, 'user4', 'user4', 14);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (8, 0, 'user5', 'user5', 34);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (9, 0, 'user6', 'user6', 33);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (10, 0, 'user7', 'user7', 12);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (11, 0, 'user8', 'user8', 14);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (12, 0, 'user9', 'user9', 34);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (13, 0, 'user10', 'user10', 33);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (14, 0, 'user11', 'user11', 12);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (15, 0, 'user12', 'user12', 14);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (16, 0, 'user13', 'user13', 34);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (17, 0, 'user14', 'user14', 33);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (18, 0, 'user15', 'user15', 12);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (19, 0, 'user16', 'user16', 14);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (20, 0, 'user17', 'user17', 34);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (21, 0, 'user18', 'user18', 33);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (22, 0, 'user19', 'user19', 12);
+INSERT INTO SAMPLE (id, modificationCounter, name, surname, age ) VALUES (23, 0, 'user20', 'user20', 14);
