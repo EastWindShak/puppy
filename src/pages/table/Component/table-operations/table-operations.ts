@@ -17,18 +17,16 @@ import { TablemanagementProvider } from '../../../../providers/tablemanagement/t
 })
 export class TableOperationsComponent {
 
-  text: string;
-  
   alerCtrl: any;
   tabletoshow: any;
+  constructingitem = {id: '', name: '', surname: '', age: '' };
+
   @Input() isDisabled : boolean = true;
 
   constructor(public translate: TranslateService, public alertCtrl: AlertController, public tableManagement: TablemanagementProvider,
     public tableStore: TablestoreProvider, public tablemain: TablePage) {
-    this.text = 'Hello World';
 
   }
-  constructingitem = {id: '', name: '', surname: '', age: '' };
   indexisnull() : boolean {
     let index = this.tablemain.getindex();
     if (!index && index != 0) {
@@ -39,8 +37,6 @@ export class TableOperationsComponent {
   checkbox : boolean = false;
 
   onclick(){
-
-  
     if(this.checkbox == true) {
       this.checkbox = false;
       this.tableManagement.getTableM().subscribe(
@@ -53,8 +49,7 @@ export class TableOperationsComponent {
       )
     } else {
       this.checkbox = false;
-    }
-    
+    }  
   }
   prompTranslations(Code:string) : any {
     let a: any = {};
@@ -156,21 +151,7 @@ export class TableOperationsComponent {
     let prompt = this.alertCtrl.create({
       title: a.title,
       message: a.message,
-      inputs: [
-        {
-          name: 'name',
-          placeholder: a.name + ' : jon',
-
-        },
-        {
-          name: 'surname',
-          placeholder: a.surname + ' : jon',
-        },
-        {
-          name: 'age',
-          placeholder: a.age + ' : 222'
-        }
-      ],
+     
       buttons: [
         {
           text: a.dismiss,

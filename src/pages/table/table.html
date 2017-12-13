@@ -6,20 +6,30 @@
 -->
 <ion-header >
     <layoutheader Title="Table" ></layoutheader>
+    <h3 margin-left="10px">{{'ionBasic.Sample.title' | translate }}</h3>
+    <h6 font-color="gray" margin-left="10px">{{'ionBasic.Sample.description' | translate }}</h6>
+    <ion-item>
+      <ion-row text-left nowrap>
+        <ion-col></ion-col>
+        <ion-col>{{'COMMONPROMPT.NAME' | translate }}</ion-col>
+        <ion-col>{{'COMMONPROMPT.SURNAME' | translate }}</ion-col>
+        <ion-col>{{'COMMONPROMPT.AGE' | translate }}</ion-col>
+      </ion-row>
+    </ion-item>
 </ion-header>
-
-
-<ion-content padding>
-  
+<ion-content padding> 
   <ion-grid>
-    <ion-row  *ngFor="let p of tabletoshow; let i = index" [(ngModel)]="checkboxes" ngDefaultControl >
-          <ion-col>
-          <ion-checkbox (click)="onclick(i)" checked="{{p.checkbox}}"></ion-checkbox>
-          </ion-col>
-          <ion-col>{{p.name}}</ion-col>
-          <ion-col>{{p.surname}}</ion-col>
-          <ion-col>{{p.age}}</ion-col>
-    </ion-row>
+    
+    <ion-item>
+      <ion-row  text-left *ngFor="let p of tabletoshow; let i = index" [(ngModel)]="checkboxes" ngDefaultControl >
+        <ion-col>
+        <ion-checkbox (click)="onclick(i)" checked="{{p.checkbox}}"></ion-checkbox>
+        </ion-col>
+        <ion-col>{{p.name}}</ion-col>
+        <ion-col>{{p.surname}}</ion-col>
+        <ion-col>{{p.age}}</ion-col>
+      </ion-row>
+    </ion-item>
   <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
       <ion-infinite-scroll-content></ion-infinite-scroll-content>
   </ion-infinite-scroll>

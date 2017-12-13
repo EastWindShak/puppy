@@ -129,4 +129,8 @@ export class TablePage {
 
   }
 
+  doRefresh() {
+    this.tableManagement.getTableM();
+  }
+
 }

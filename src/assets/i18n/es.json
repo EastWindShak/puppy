@@ -22,6 +22,15 @@
       "subtitle":"Usuario o contraseña erroneo",
       "dismiss":"cerrar"
     },
+    "ionBasic": {
+      "Sample": {
+        "title": "Tabla Sample",
+        "description": "Descripcion de Sample",
+        "NAME": "Nombre",
+        "SURNAME": "Apellido",
+        "AGE": "Edad"
+      }
+    },
     "COMMONPROMPT":{
       "NAME": "Nombre",
       "SURNAME": "Apellido",
